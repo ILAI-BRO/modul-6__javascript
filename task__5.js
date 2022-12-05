@@ -6,13 +6,14 @@ function number(x, b) {
   }
 
   return result;
+  
 }
 
 let x = prompt("задайте число x", '');
 let b = prompt("задайте число b", '');
 
 if (b < 1) {
-  alert(`Степень ${b} не поддерживается, используйте натуральное число`);
+  console.log(`Степень ${b} не поддерживается, используйте натуральное число`);
 } else {
-  alert( number(x, b) );
+  console.log( number(x, b) );
 }
